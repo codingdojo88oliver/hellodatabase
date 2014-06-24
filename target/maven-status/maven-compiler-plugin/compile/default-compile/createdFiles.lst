@@ -1,0 +1,4 @@
+application\controllers\UsersController.class
+application\models\User.class
+application\App.class
+application\repositories\UserRepository.class

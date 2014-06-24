@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Form Handling</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	Hello
+	<tr data-th-each="user : ${users}">
+		<td data-th-text="${user.first_name}"></td>
+		<td data-th-text="${user.email}"></td>
+		<td data-th-text="${user.password}"></td>
+	</tr>
+	<p th:text="${email}" />
+</body>
+</html>
